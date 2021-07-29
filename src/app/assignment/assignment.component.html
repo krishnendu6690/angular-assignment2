@@ -1,0 +1,8 @@
+<p>assignment works!</p>
+<label>User Name</label>&nbsp;&nbsp;<input type="text"
+classname="form-control"
+(input)="onKeyType($event)"
+[(ngModel)]="UserName">&nbsp;&nbsp;<button classname="btn bnt-primary"
+    [disabled]="allowNewServer"
+    (click)="onResetClick()">Reset</button>
+<p>{{UserName}}</p>
